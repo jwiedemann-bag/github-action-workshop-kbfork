@@ -1,10 +1,10 @@
 param location string = 'switzerlandnorth'
-param resourceGroupName string = 'demo-rg'
+param resourceGroupName string = 'demo-kelly-rg'
 param storageAccountName string = 'mystorageaccountdemoksb'
 param vnetName string = 'demo-vnet'
-param vnetAddressPrefix string = '10.0.0.0/16'
+param vnetAddressPrefix string = '10.10.0.0/16'
 param subnetName string = 'default'
-param subnetPrefix string = '10.0.1.0/24'
+param subnetPrefix string = '10.10.1.0/24'
 
 targetScope = 'subscription'
 
